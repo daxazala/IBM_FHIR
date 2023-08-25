@@ -60,6 +60,7 @@
                 "fhir-ig-davinci-hrex",
                 "fhir-ig-davinci-pdex",
                 "fhir-ig-mcode",
+                "fhir-ig-mcreations",
                 "fhir-ig-us-core",
                 "fhir-term",
                 "integration",

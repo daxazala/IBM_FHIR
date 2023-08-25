@@ -382,6 +382,11 @@
                 </dependency>
                 <dependency>
                     <groupId>${project.groupId}</groupId>
+                    <artifactId>fhir-ig-mcreations</artifactId>
+                    <version>${project.version}</version>
+                </dependency>
+                <dependency>
+                    <groupId>${project.groupId}</groupId>
                     <artifactId>fhir-ig-davinci-hrex</artifactId>
                     <version>${project.version}</version>
                 </dependency>

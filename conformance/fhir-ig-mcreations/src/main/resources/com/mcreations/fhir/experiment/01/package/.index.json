@@ -1,0 +1,45 @@
+{
+  "index-version" : 2,
+  "files" : [
+    {
+      "filename" : "ImplementationGuide-ig.json",
+      "resourceType" : "ImplementationGuide",
+      "id" : "ig",
+      "url" : "https://fhir-ig-example/ImplementationGuide/ig",
+      "version" : "0.0.1"
+    },
+    {
+      "filename" : "CodeSystem-questionnaire-item-control-more-options-cs.json",
+      "resourceType" : "CodeSystem",
+      "id" : "questionnaire-item-control-more-options-cs",
+      "url" : "https://fhir-ig-example/CodeSystem/questionnaire-item-control-more-options-cs",
+      "version" : "0.0.1",
+      "content" : "complete"
+    },
+    {
+      "filename" : "ValueSet-questionnaire-item-control-more-options-vs.json",
+      "resourceType" : "ValueSet",
+      "id" : "questionnaire-item-control-more-options-vs",
+      "url" : "https://fhir-ig-example/ValueSet/questionnaire-item-control-more-options-vs",
+      "version" : "0.0.1"
+    },
+    {
+      "filename" : "StructureDefinition-ExampleQuestionnaire.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "ExampleQuestionnaire",
+      "url" : "https://fhir-ig-example/StructureDefinition/ExampleQuestionnaire",
+      "version" : "0.0.1",
+      "kind" : "resource",
+      "type" : "Questionnaire"
+    },
+    {
+      "filename" : "StructureDefinition-item-control-with-more-options-extension.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "item-control-with-more-options-extension",
+      "url" : "https://fhir-ig-example/StructureDefinition/item-control-with-more-options-extension",
+      "version" : "0.0.1",
+      "kind" : "complex-type",
+      "type" : "Extension"
+    }
+  ]
+}

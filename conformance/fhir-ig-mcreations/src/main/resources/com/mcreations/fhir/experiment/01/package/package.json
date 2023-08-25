@@ -1,0 +1,22 @@
+{
+  "name" : "ig",
+  "version" : "0.0.1",
+  "tools-version" : 3,
+  "type" : "IG",
+  "date" : "20230817083550",
+  "license" : "CC0-1.0",
+  "canonical" : "https://fhir-ig-example",
+  "notForPublication" : true,
+  "url" : "file:///home/daxa/repo/fhir-experiments/fhir_ig_example/ig_root/output",
+  "title" : "FHIR IG demo",
+  "fhirVersions" : ["4.0.1"],
+  "dependencies" : {
+    "hl7.fhir.r4.core" : "4.0.1",
+    "hl7.terminology.r4" : "5.0.0",
+    "hl7.fhir.uv.extensions.r4" : "1.0.0"
+  },
+  "directories" : {
+    "lib" : "package",
+    "example" : "example"
+  }
+}

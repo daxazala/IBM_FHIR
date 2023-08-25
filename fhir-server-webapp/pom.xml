@@ -12,7 +12,7 @@
     <artifactId>fhir-server-webapp</artifactId>
 
     <packaging>war</packaging>
-    
+
     <properties>
         <fhir.server.war.name>fhir-server</fhir.server.war.name>
         <liberty.var.DB_LOC>${project.basedir}/../derby</liberty.var.DB_LOC>
@@ -143,6 +143,11 @@
                             <dependency>
                                 <groupId>org.linuxforhealth.fhir</groupId>
                                 <artifactId>fhir-ig-carin-bb</artifactId>
+                                <version>${project.version}</version>
+                            </dependency>
+                            <dependency>
+                                <groupId>org.linuxforhealth.fhir</groupId>
+                                <artifactId>fhir-ig-mcreations</artifactId>
                                 <version>${project.version}</version>
                             </dependency>
                             <dependency>

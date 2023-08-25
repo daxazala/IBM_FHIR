@@ -77,6 +77,7 @@
         <module>../conformance/fhir-ig-us-core</module>
         <module>../conformance/fhir-ig-carin-bb</module>
         <module>../conformance/fhir-ig-mcode</module>
+        <module>../conformance/fhir-ig-mcreations</module>
         <module>../conformance/fhir-ig-davinci-pdex-plan-net</module>
         <module>../conformance/fhir-ig-davinci-pdex-formulary</module>
         <module>../conformance/fhir-ig-davinci-pdex</module>
