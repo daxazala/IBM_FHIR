@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.linuxforhealth.fhir.ig.mcode.test;
+package org.linuxforhealth.fhir.ig.mcreations.test;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

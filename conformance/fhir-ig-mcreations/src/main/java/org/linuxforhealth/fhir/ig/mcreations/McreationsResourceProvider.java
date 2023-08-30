@@ -8,9 +8,9 @@ package org.linuxforhealth.fhir.ig.mcreations;
 
 import org.linuxforhealth.fhir.registry.util.PackageRegistryResourceProvider;
 
-public class MCREATIONSResourceProvider extends PackageRegistryResourceProvider {
+public class McreationsResourceProvider extends PackageRegistryResourceProvider {
     @Override
     public String getPackageId() {
-        return "ig";
+        return "com.mcreations.fhir.experiment.01";
     }
 }

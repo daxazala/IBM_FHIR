@@ -10,7 +10,7 @@ import static org.linuxforhealth.fhir.path.util.FHIRPathUtil.compile;
 
 import org.testng.annotations.Test;
 
-import org.linuxforhealth.fhir.ig.mcreations.MCREATIONSResourceProvider;
+import org.linuxforhealth.fhir.ig.mcreations.McreationsResourceProvider;
 import org.linuxforhealth.fhir.model.annotation.Constraint;
 import org.linuxforhealth.fhir.model.resource.StructureDefinition;
 import org.linuxforhealth.fhir.model.type.Extension;
@@ -22,7 +22,7 @@ import org.linuxforhealth.fhir.registry.spi.FHIRRegistryResourceProvider;
 public class ConstraintGeneratorTest {
     @Test
     public static void testConstraintGenerator() throws Exception {
-        FHIRRegistryResourceProvider provider = new MCREATIONSResourceProvider();
+        FHIRRegistryResourceProvider provider = new McreationsResourceProvider();
         for (FHIRRegistryResource registryResource : provider.getRegistryResources()) {
             if (StructureDefinition.class.equals(registryResource.getResourceType())) {
                 String url = registryResource.getUrl();
